@@ -90,6 +90,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\Alex.png" />
     <Content Include="Images\Geddy.png" />

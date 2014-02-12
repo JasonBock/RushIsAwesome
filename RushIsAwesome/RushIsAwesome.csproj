@@ -95,6 +95,7 @@
     <Content Include="Images\Alex.png" />
     <Content Include="Images\Geddy.png" />
     <Content Include="Images\Neil.png" />
+    <Content Include="Scripts\trivia.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

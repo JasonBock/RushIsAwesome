@@ -6,3 +6,8 @@ Band Members
 	<li>@Html.ActionLink("Alex Lifeson", "Index", "Member", new { @id = 3 }, null)</li>
 	<li>@Html.ActionLink("Neil Peart", "Index", "Member", new { @id = 1 }, null)</li>
 </ul>
+<input type="button" value="Did you know?" onclick="loadTrivia();" />
+<div id="trivia" />
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+<script src="@Url.Content("~/Scripts/trivia.js")"></script>

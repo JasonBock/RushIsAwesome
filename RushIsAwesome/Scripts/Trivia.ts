@@ -6,7 +6,7 @@ class Trivia {
     constructor() {
         this.triviaElement = $('#trivia');
     }
-    retrieve() {
+    retrieve() : void {
         var self = this;
         $.getJSON('api/trivia', function (data, textStatus, jqXHR) {
             self.triviaElement.text(data.Item);

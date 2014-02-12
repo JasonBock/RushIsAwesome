@@ -4,8 +4,8 @@
 	/* Red star: #A60000 */
 	/* 2112: #243674 */
 	/* Rush: #2EB1DB */
-	color: #A60000;
-	font-size: 24pt;
-	border: solid;
-	border-color: #2EB1DB;
+	color: #2EB1DB;
+	font-size: 48pt;
+	border-style: ridge;
+	border-color: #A60000;
 }

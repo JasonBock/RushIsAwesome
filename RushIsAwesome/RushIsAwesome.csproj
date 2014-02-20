@@ -403,7 +403,6 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\Controllers\TriviaController.ts" />
     <TypeScriptCompile Include="Scripts\Models\TriviaModel.ts" />
-    <TypeScriptCompile Include="Scripts\Trivia.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-resource.d.ts" />

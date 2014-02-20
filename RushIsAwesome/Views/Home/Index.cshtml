@@ -13,5 +13,5 @@
         <li>@Html.ActionLink("Neil Peart", "Index", "Member", new { @id = 1 }, null)</li>
     </ul>
     <input type="button" value="Did You Know?" ng-click="getTrivia()" />
-    <div>{{model.item}}</div>
+    <div ng-bind="model.item" />
 </div>

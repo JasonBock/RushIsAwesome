@@ -1,12 +1,17 @@
-<div>
-Band Members
+<script src="@Url.Content("~/Scripts/angular.js")"></script>
+@*<script src="@Url.Content("~/Scripts/Trivia.js")"></script>*@
+<script src="@Url.Content("~/Scripts/Controllers/TriviaController.js")"></script>
+<script src="@Url.Content("~/Scripts/Models/TriviaModel.js")"></script>
+
+<div ng-controller="RushIsAwesome.Controllers.TriviaController">
+    <div>
+        Band Members
+    </div>
+    <ul>
+        <li>@Html.ActionLink("Geddy Lee", "Index", "Member", new { @id = 2 }, null)</li>
+        <li>@Html.ActionLink("Alex Lifeson", "Index", "Member", new { @id = 3 }, null)</li>
+        <li>@Html.ActionLink("Neil Peart", "Index", "Member", new { @id = 1 }, null)</li>
+    </ul>
+    <input type="button" value="Did You Know?" ng-click="getTrivia()" />
+    <div>{{model.item}}</div>
 </div>
-<ul>
-	<li>@Html.ActionLink("Geddy Lee", "Index", "Member", new { @id = 2 }, null)</li>
-	<li>@Html.ActionLink("Alex Lifeson", "Index", "Member", new { @id = 3 }, null)</li>
-	<li>@Html.ActionLink("Neil Peart", "Index", "Member", new { @id = 1 }, null)</li>
-</ul>
-<input type="button" id="didYouKnow" value="Did You Know?" />
-<div id="trivia" />
-<script src="@Url.Content("~/Scripts/jquery-2.1.0.min.js")"></script>
-<script src="@Url.Content("~/Scripts/Trivia.js")"></script>

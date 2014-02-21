@@ -1,5 +1,3 @@
-/// <reference path="../typings/angularjs/angular.d.ts" />
-
 module RushIsAwesome.Controllers {
     export interface ITriviaScope extends ng.IScope {
         model: RushIsAwesome.Models.TriviaModel;
